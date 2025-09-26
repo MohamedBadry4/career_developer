@@ -15,6 +15,8 @@ The system leverages:
 * **Flask API** for backend inference & integration
 * **Streamlit** for an interactive frontend
 * **MLflow** for experiment tracking and model management
+* **Firebase** for user authentication
+* **MySQL** for structured data storage
 
 ---
 
@@ -26,7 +28,7 @@ The system leverages:
 * 🤖 Chatbot assistance for developer career questions
 * 📊 Explore explainable predictions (feature importance, SHAP)
 * 💾 Track and version ML models with MLflow
-* 🔐 Secure authentication (JWT / Firebase if added)
+* 🔐 User authentication with Firebase
 * 🌐 Lightweight, interactive, and user-friendly UI with Streamlit
 
 ---
@@ -74,8 +76,9 @@ The system leverages:
 1. **Streamlit Frontend** → Developer inputs skills
 2. **Flask API** → Predicts job + recommends skills
 3. **MLflow** → Tracks experiments & stores models
-4. **Database (MySQL/PostgreSQL)** → Stores user data and history
-5. **Chatbot (NLP model)** → Assists users with questions
+4. **MySQL Database** → Stores user data and history
+5. **Firebase Auth** → Manages secure login
+6. **Chatbot (NLP model)** → Assists users with questions
 
 ---
 
@@ -85,9 +88,11 @@ The system leverages:
 | ----------- | --------------------------------- |
 | Frontend    | Streamlit (Python)                |
 | Backend     | Flask (Python)                    |
-| Auth        | JWT / Firebase (if integrated)    |
-| Database    | MySQL / Supabase                  |
+| Auth        | Firebase Authentication           |
+| Database    | MySQL                             |
 | ML Training | Jupyter, Scikit-learn, TensorFlow |
-| Tools       | MLflow, OpenCV, Python, VS Code   |
+| Tools       | MLflow, OpenCV, PyCharm           |
 
 ---
+
+
