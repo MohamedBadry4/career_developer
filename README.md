@@ -1,9 +1,3 @@
-Ah right 👍 thanks for the correction — instead of **React/Flutter**, your frontend is **Streamlit**.
-
-Let me update the project write-up to match **Streamlit** as the frontend:
-
----
-
 # 🧑‍💻 PathCoder – Developer Career Path Recommender
 
 A cross-platform AI-powered web app that helps developers explore career paths, predict suitable jobs, and discover skills they need to grow.
